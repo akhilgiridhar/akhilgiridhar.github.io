@@ -25,3 +25,21 @@ h1 {
     font-weight: bold;   /* Bold text */
     font-size: 3em;      /* Increase the size of the name */
 }
+
+.green-text {
+    color: green;
+}
+
+#footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+a {
+    color: white;  /* Default link color */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    color: green;  /* Link color on hover */
+}
