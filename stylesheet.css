@@ -5,7 +5,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;     /* Resetting default margin */
     padding: 0;    /* Resetting default padding */
-    overflow: hidden; /* Prevent any unwanted scrolling */
+    /* overflow: hidden; Prevent any unwanted scrolling */
 }
 
 /* Styling the container of the name */
@@ -37,6 +37,7 @@ h1 {
 
 #footer img {
     max-width: 100%; /* Ensures the image doesn't overflow its container */
+    width: 200px;
     height: auto;    /* Keeps the image's aspect ratio */
     display: block;  /* Changes the image from inline to block element */
     margin: 0 auto;  /* Centers the block image horizontally */
