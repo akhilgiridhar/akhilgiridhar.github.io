@@ -1,10 +1,25 @@
+/* Overall theme settings */
 body {
+    background-color: black;
+    color: green;  /* Default text color */
     font-family: Arial, sans-serif;
-    margin: 40px;
-    background-color: #f2f2f2;
+    margin: 0;     /* Resetting default margin */
+    display: flex; /* Setting up flex to center the name */
+    height: 100vh; /* Making sure body takes the full viewport height */
+    align-items: center; /* Centers child elements vertically */
+    justify-content: center; /* Centers child elements horizontally */
 }
 
+/* Styling the container of the name */
+.name-container {
+    background-color: green; /* Colored box for the name */
+    padding: 10px 20px;      /* Some spacing inside the box */
+    border-radius: 5px;      /* Rounded corners for the box */
+}
+
+/* Styling the name */
 h1 {
-    color: #333;
+    margin: 0;           /* Resetting default margin */
+    color: black;        /* Name color */
+    font-weight: bold;   /* Bold text */
 }
-
